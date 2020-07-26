@@ -1,0 +1,22 @@
+.game-deck {
+    width: 250px;
+    height: 250px;
+    margin: 30px auto 0;
+    box-shadow: 0 0 2px 1px rgba(0,0,0,0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+}
+
+.end-game::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
