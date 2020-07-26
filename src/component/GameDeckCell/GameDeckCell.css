@@ -1,18 +1,30 @@
 .game-deck-cell {
     width: 36px;
     height: 36px;
-    background: #ccc;
+    background: #303f9f;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
     outline: none;
-    transition: 0.5s;
+    transition: 0.2s;
     position: relative;
 }
 
+.game-deck-cell:hover {
+    background: #7986cb;
+}
+
+.game-deck-cell:active {
+    transform: scale(0.9);
+}
+
 .clicked {
+    background: transparent;
+}
+
+.clicked:hover {
     background: transparent;
 }
 
