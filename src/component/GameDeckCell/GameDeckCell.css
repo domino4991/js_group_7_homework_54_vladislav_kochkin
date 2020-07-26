@@ -1,0 +1,23 @@
+.game-deck-cell {
+    width: 36px;
+    height: 36px;
+    background: #ccc;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    position: relative;
+}
+
+.clicked {
+    background: transparent;
+}
+
+@keyframes showCells {
+    100% {
+        transform: scale(1);
+    }
+}
