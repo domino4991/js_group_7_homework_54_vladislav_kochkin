@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import {nanoid} from "nanoid";
 import './App.css';
-import GameDeck from "../component/GameDeck/GameDeck";
-import Counter from "../component/Counter/Counter";
-import ResetButton from "../component/ResetButton/ResetButton";
+import GameDeck from "../../component/GameDeck/GameDeck";
+import Counter from "../../component/Counter/Counter";
+import ResetButton from "../../component/ResetButton/ResetButton";
 
 function App() {
   const [cell, setCell] = useState({
